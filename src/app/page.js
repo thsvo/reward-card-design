@@ -54,10 +54,10 @@ export default function Home() {
             </p>
             <ul className="space-y-4">
               {[
-                "Increase brand awareness and sales.",
-                "Rank higher on Google search engine.",
-                "Double your actual website traffic.",
-                "Outrank your competitors.",
+                "Members-Only Deals: Access to special sales or exclusive promotions.",
+                "Earn Points for Every Purchase: Accumulate points redeemable for future discounts or free products.",
+                "Personalized Offers: Receive tailored promotions based on purchasing habits.",
+                "Bonus Challenges: Earn extra rewards for completing tasks like referring friends or hitting spending milestones.",
               ].map((item, index) => (
                 <li key={index} className="flex items-center text-white">
                   <span className="mr-3 flex h-6 w-6 items-center justify-center rounded-full bg-yellow-400 text-purple-600">
@@ -94,14 +94,14 @@ export default function Home() {
                 <div className="flex h-full flex-col justify-between">
                   <div className="space-y-2">
                   
-                    <h2 className="text-5xl italic font-bold font-script text-white">
+                    <h2 className="text-5xl italic font-bold font-script text-white ">
                       
-                    <img
-                        className=" lg:ml-20  absolute -z-10"
+                    <img 
+                        className=" absolute -z-10 lg:-m-20 lg:ml-2 opacity-90 "
                         src="https://truegas.codeopx.com/onlylogo.svg"
                         alt="Valu-Life Logo"
-                        width={300}
-                        height={300}
+                        width={400}
+                        height={200}
                       />
                       Valu-Rewards
                     </h2>
